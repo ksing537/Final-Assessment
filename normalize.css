@@ -1,0 +1,241 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: whitesmoke;
+}
+
+a {
+	text-decoration: none;
+}
+.header {
+	padding: 0px 30px;
+	margin-right: 8%;
+	margin-left: 8%;
+	border: 1px solid grey;
+	border-radius: 15px;
+	background: lightgrey;
+
+	box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+
+.header .left-side {
+	display: flex;
+
+}
+.header .left-side img {
+	width: 60px;
+	height: auto;
+}
+
+.header .left-side h5 {
+	font-size: 18px;
+	margin-left: 20px;
+}
+
+.header .right-side {
+	width: 30%;
+	margin-right: 70px;
+	height: 100%;
+}
+
+.header .right-side ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	align-items: center;
+}
+
+.header .right-side ul li {
+	margin-top: 10px;
+}
+.header .right-side .nav-item {
+	font-weight: bold;
+	margin-top: 15px;
+	font-size: 18px;
+	color: darkblue;
+	border-bottom: 1px solid darkblue;
+	
+}
+
+.header .right-side .nav-item.active {
+	color: #c0362c;
+	border-color: #c0362c;
+}
+
+.main {
+	min-height: 500px;
+	margin-left: 8%;
+	margin-right: 8%;
+	box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
+	margin-top: 30px;
+	padding: 10px 100px;
+}
+
+.main h3 {
+	font-size: 50px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.main .underline {
+	width: 100px;
+	height: 3px;
+	background: darkblue
+}
+
+.main p {
+	margin: 30px 100px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px
+}
+
+.main .pers-info {
+	margin: 10px 150px;
+	font-size: 20px;
+	color: grey;
+}
+
+.pers-info span{
+	color: black;
+	margin-right: 20px;
+}
+
+.info-main {
+	display: flex;
+	margin-right: 8%;
+	margin-left: 8%;
+	margin-top: 2%;
+}
+
+.form {
+	flex: 2;
+	box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
+	margin-right: 20px;
+	padding: 0px 100px;
+}
+
+.errors	{
+	flex: : 1;
+	min-width: 300px;
+	box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
+}
+
+.info-main h3 {
+	font-size: 40px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.info-main .underline {
+	width: 100px;
+	height: 3px;
+	background: darkblue
+}
+
+.info-main p {
+	margin: 30px 100px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px
+}
+
+.form .half-inputs {
+	display: flex;
+}
+
+
+.form .half-inputs input {
+	width: 300px;
+	margin-right: 30px;
+	height: 25px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.form .full-input input {
+	width: 95%;
+	margin-right: 30px;
+	height: 25px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.form .radios {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.form .radios .radio {
+	display: flex;
+}
+
+.form .radios .radio p {
+	margin: 0px 20px;
+}
+
+.form .btn {
+	padding: 8px 30px;
+	background: blue;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.reflection {
+	min-height: 500px;
+	margin-left: 8%;
+	margin-right: 8%;
+	box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
+	margin-top: 30px;
+	padding: 5px 100px;
+}
+
+.reflection h3 {
+	font-size: 40px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.reflection .underline {
+	width: 100px;
+	height: 3px;
+	background: darkblue
+}
+
+.reflection p {
+	margin: 30px 30px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px
+}
+
+
+.reflection h6 {
+	margin: 20px 50px;
+	font-size: 18px;
+	color: grey;
+	font-weight: lighter;
+}
+
+.reference {
+	text-align: center;
+	font-size: 25px;
+}
+
+.error {
+	width:250px; 
+	height:50px; 
+	background: brown;
+	border-radius: 5px;
+	color: white;
+	font-size: 18px;
+	margin: 10px 0px;
+	margin-left: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+}

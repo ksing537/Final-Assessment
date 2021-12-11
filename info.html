@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Karanpreet Singh</title>
+	<link rel="stylesheet" type="text/css" href="./normalize.css">
+</head>
+<body>
+	<header class="header">
+		<nav class="navbar">
+			<div class="left-side">
+				<img src="./logo.svg" alt="">
+				<h5>Karanpreet Site</h5>
+			</div>
+			<div class="right-side">
+				<ul>
+					<li><a href="./honesty.html" class="nav-item">Honesty</a></li>
+					<li><a href="" class="nav-item active">Info</a></li>
+					<li><a href="./reflection.html" class="nav-item">Reflection</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	
+	<div class="info-main">
+		<div class="form">
+			<h3>Lets sign you up <span>&#9997;</span></h3>
+
+			<form action="https://httpbin.org/post" method="post" id="form">
+
+				<input type="hidden" name="lastName" id="lastName" value="Singh" />
+				<input type="hidden" name="studentId" id="studentId" value="ksingh537@myseneca.ca" />
+
+				<div class="half-inputs">
+					<div class="first">
+						<label for="first_name">First Name</label><br>
+						<input type="text" name="first_name" id="first_name">
+					</div>
+					<div class="second">
+						<label for="last_name">Last Name</label><br>
+						<input type="text" name="last_name" id="last_name">
+					</div>
+				</div>
+
+				<div class="full-input">
+					<label for="username">Username</label><br>
+						<input type="text" name="username" id="username">
+				</div>
+
+				<div class="full-input">
+					<label for="email">Email</label><br>
+						<input type="email" name="email" id="email">
+				</div>
+				
+				<div class="full-input">
+					<label for="age">Age</label><br>
+						<input type="number" name="age" id="age">
+				</div>
+
+				<div class="">
+					<label for="first_name">Education Status</label><br>
+						<div class="radios">
+							<div class="radio">
+								<input type="radio" name="last_name">
+							<p>Graduated</p>
+							</div>
+							<div class="radio">
+								<input type="radio" name="last_name">
+							<p>Current enrolled</p>
+							</div>
+							<div class="radio">
+								<input type="radio" name="last_name">
+							<p>Did not graduate</p>
+							</div>
+						</div>
+						
+				</div>
+				
+				<div class="full-input">
+					<label for="password">Password</label><br>
+						<input type="password" name="password" id="password">
+				</div>
+
+				<div class="full-input">
+					<label for="confirm_password">Confirm Password</label><br>
+						<input type="password" name="confirm_password" id="confirm_password">
+				</div>
+
+				<button type="submit" class="btn">Sign Up</button>
+			</form>
+		</div>
+
+		<div class="errors">
+			<h3>Validation</h3>
+			<div id="error1">
+				
+			</div>
+			<div id="error2">
+				
+			</div>
+			<div id="error3">
+				
+			</div>
+			<div id="error4">
+				
+			</div>
+			<div id="error5">
+				
+			</div>
+			<div id="error6">
+				
+			</div>
+		</div>
+	</div>
+	
+	<script src="./info.js"></script>
+</body>
+</html>
